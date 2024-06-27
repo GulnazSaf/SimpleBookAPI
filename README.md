@@ -20,25 +20,30 @@ You can now run the tests and verify the positive end-to-end scenario.
   - Status code is 200
   - Status should be OK
   - Response time is less than 300ms
+
 **GET List of book**
   - Status code is 200
   - Check all fields in each book object
   - Book found
   - Response time is less than 300ms
+
 **GET Get a single book**
   - Status code is 200
   - Check all fields in response
   - Is in stock
   - Response time is less than 300ms
+
 **POST API Authentication**
   - Status code is 201
   - Check all fields in response
   - Response time is less than 300ms
+
 **POST Order book**
   - Status code is 201
   - Check all fields in response
   - Order is created
   - Response time is less than 300ms
+
 **GET Get an order**
   - Status code is 200
   - Response has the required fields
@@ -48,9 +53,11 @@ You can now run the tests and verify the positive end-to-end scenario.
   - Ordered book id is correct
   - Ordered quantity is correct
   - Response time is less than 300ms
+
 **PATCH Update an order**
   - Response status code is 204
   - Response time is less than 300ms
+
 **GET Get all orders**
   - Response status code is 200
   - Response time is less than 300ms
@@ -58,6 +65,7 @@ You can now run the tests and verify the positive end-to-end scenario.
   - Validate the order object schema
   - Validate the properties of the response
   - Customer name in order is updated
+
 **DELETE Delete an order**
   - Status code is 204
   - Response time is less than 300ms
